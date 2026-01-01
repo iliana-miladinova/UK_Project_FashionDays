@@ -1,0 +1,988 @@
+{
+  "id": "51e90435-5b7b-4fb3-a437-edf2304e2210",
+  "version": "2.0",
+  "name": "UK_Project",
+  "url": "https://www.fashiondays.bg",
+  "tests": [{
+    "id": "cbec9579-0d71-48d0-8b7b-0f3fa8ec9b9e",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "2b1d006c-0c6e-4179-8695-25945a93f109",
+    "name": "RegisterUnfinished",
+    "commands": [{
+      "id": "6b7c3af3-9200-4e88-8840-68771bae0fbf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4eda8f8c-0c92-4344-9d35-455be0a864af",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1234x769",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a6744a8-69b3-463f-8096-e7f43c09000d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#customer-account .icon",
+      "targets": [
+        ["css=#customer-account .icon", "css:finder"],
+        ["xpath=//a[@id='customer-account']/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af2f38d8-b057-417d-a3b8-a9b187464fc6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.text-placeholder",
+      "targets": [
+        ["css=.text-placeholder", "css:finder"],
+        ["xpath=//a[@id='mobile-search']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Търсене...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48213b54-6321-4ecf-8188-47ae50d57648",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.text-placeholder",
+      "targets": [
+        ["css=.text-placeholder", "css:finder"],
+        ["xpath=//a[@id='mobile-search']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Търсене...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb3e03d-acad-4500-8b03-717aec32e1f5",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=logo-link",
+      "targets": [
+        ["id=logo-link", "id"],
+        ["css=#logo-link", "css:finder"],
+        ["xpath=//a[@id='logo-link']", "xpath:attributes"],
+        ["xpath=//div[@id='head-section']/header/div/h1/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fashiondays.bg/')]", "xpath:href"],
+        ["xpath=//h1/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4426a83b-b2b1-4d0f-9564-82386e396b0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-tabs > li:nth-child(2) > a",
+      "targets": [
+        ["css=.nav-tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрирай се')]", "xpath:link"],
+        ["xpath=//div[@id='full-site-canvas']/div[3]/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fashiondays.bg/customer/authentication/register?_gl=1*e62ytm*_up*MQ..*_ga*MTEyNTYxNDk2My4xNzY3MjkzODI2*_ga_WGSGQEHPQE*czE3NjcyOTM4MjUkbzEkZzEkdDE3NjcyOTM4MjgkajU3JGwwJGgw')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b6995d-6618-4728-a0fc-b5d141488c04",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_email",
+      "targets": [
+        ["id=pizokel_customer_register_email", "id"],
+        ["name=pizokel_customer_register[email]", "name"],
+        ["css=#pizokel_customer_register_email", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76677c8d-430b-4a2d-b760-59cdd9d909de",
+      "comment": "",
+      "command": "type",
+      "target": "id=pizokel_customer_register_email",
+      "targets": [
+        ["id=pizokel_customer_register_email", "id"],
+        ["name=pizokel_customer_register[email]", "name"],
+        ["css=#pizokel_customer_register_email", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "iliana.miladinova20@gmail.com"
+    }, {
+      "id": "c8c1be75-9c3e-4adf-a5ed-1347e913727a",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_password",
+      "targets": [
+        ["id=pizokel_customer_register_password", "id"],
+        ["name=pizokel_customer_register[password]", "name"],
+        ["css=#pizokel_customer_register_password", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_password']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c9a7fd9-748f-4015-8528-066c8d1ed1fd",
+      "comment": "",
+      "command": "type",
+      "target": "id=pizokel_customer_register_password",
+      "targets": [
+        ["id=pizokel_customer_register_password", "id"],
+        ["name=pizokel_customer_register[password]", "name"],
+        ["css=#pizokel_customer_register_password", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_password']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "Iliana200704*"
+    }, {
+      "id": "eae46986-7b45-4728-8c60-8edd06729bb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6) > .register-checkbox-label",
+      "targets": [
+        ["css=div:nth-child(6) > .register-checkbox-label", "css:finder"],
+        ["xpath=//form[@id='register-form']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Прочетох и се съгласявам с Общите условия на Fashion Days, Политиката за конфиденциалност, и потвърждавам, че имам навършени 18 години.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4605cb03-13a9-4222-9fa4-e461c30d5879",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_submit",
+      "targets": [
+        ["id=pizokel_customer_register_submit", "id"],
+        ["name=pizokel_customer_register[submit]", "name"],
+        ["css=#pizokel_customer_register_submit", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9eb7046a-3aae-43a5-9bf3-28a11c119c90",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.logo",
+      "targets": [
+        ["css=.logo", "css:finder"],
+        ["xpath=//img[@alt='FG Logo']", "xpath:img"],
+        ["xpath=//div[@id='reactRoot']/div/div[10]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71777987-ad5f-4930-83df-434281cec990",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.logo",
+      "targets": [
+        ["css=.logo", "css:finder"],
+        ["xpath=//img[@alt='FG Logo']", "xpath:img"],
+        ["xpath=//div[@id='reactRoot']/div/div[10]/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5362a54-aa8e-4a67-8bf8-272fdbd354de",
+      "comment": "",
+      "command": "click",
+      "target": "id=accept-cookie-policy",
+      "targets": [
+        ["id=accept-cookie-policy", "id"],
+        ["linkText=Приемам", "linkText"],
+        ["css=#accept-cookie-policy", "css:finder"],
+        ["xpath=//a[contains(text(),'Приемам')]", "xpath:link"],
+        ["xpath=//a[@id='accept-cookie-policy']", "xpath:attributes"],
+        ["xpath=//div[@id='cookie-notification-banner']/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Приемам')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8cc8db1-a005-42b5-88ed-bd32647b125b",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone-input",
+      "targets": [
+        ["id=phone-input", "id"],
+        ["name=phone", "name"],
+        ["css=#phone-input", "css:finder"],
+        ["xpath=//input[@id='phone-input']", "xpath:attributes"],
+        ["xpath=//div[@id='reactRoot']/div/div[10]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cccd6281-b2ee-4093-a707-f0a5d7895d75",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone-input",
+      "targets": [
+        ["id=phone-input", "id"],
+        ["name=phone", "name"],
+        ["css=#phone-input", "css:finder"],
+        ["xpath=//input[@id='phone-input']", "xpath:attributes"],
+        ["xpath=//div[@id='reactRoot']/div/div[10]/div/div/div/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "+359899054636"
+    }, {
+      "id": "1e170015-98e3-48f5-b8b3-4bf83af3f74c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-button",
+      "targets": [
+        ["css=.main-button", "css:finder"],
+        ["xpath=//div[@id='reactRoot']/div/div[10]/div/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Изпрати СМС')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c921381c-b14b-468a-9768-a0979f73cee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.black",
+      "targets": [
+        ["css=.black", "css:finder"],
+        ["xpath=//div[@id='reactRoot']/div/div[10]/div/div/div/div/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продължи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "31052e26-a349-4986-8eff-5ec4dc14dfee",
+    "name": "RegisterWithInvalidEmail",
+    "commands": [{
+      "id": "66c2071c-9c96-4c8c-ba80-f58d062f3ae1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e5a744f-90f8-44dd-9263-76588094ed97",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1234x769",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23c21466-c0ed-433d-bd51-49e0cb214f12",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=customer-basket",
+      "targets": [
+        ["id=customer-basket", "id"],
+        ["css=#customer-basket", "css:finder"],
+        ["xpath=//a[@id='customer-basket']", "xpath:attributes"],
+        ["xpath=//div[@id='head-section']/header/div/nav/div/div[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart/')]", "xpath:href"],
+        ["xpath=//nav/div/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30bbfdff-093e-4c73-8f12-6af1e50b0c35",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=customer-support",
+      "targets": [
+        ["id=customer-support", "id"],
+        ["css=#customer-support", "css:finder"],
+        ["xpath=//a[@id='customer-support']", "xpath:attributes"],
+        ["xpath=//div[@id='user-mobile-area']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/page/faq/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a17b186d-2575-41e9-9a93-bb7bb558e951",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=customer-support",
+      "targets": [
+        ["id=customer-support", "id"],
+        ["css=#customer-support", "css:finder"],
+        ["xpath=//a[@id='customer-support']", "xpath:attributes"],
+        ["xpath=//div[@id='user-mobile-area']/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/page/faq/')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "590897b1-8c30-48a3-9ee0-97dfee298e82",
+      "comment": "",
+      "command": "click",
+      "target": "css=#customer-account .icon",
+      "targets": [
+        ["css=#customer-account .icon", "css:finder"],
+        ["xpath=//a[@id='customer-account']/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "297d36d3-cb6a-474b-91e7-f206bbd88f62",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-tabs > li:nth-child(2) > a",
+      "targets": [
+        ["css=.nav-tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрирай се')]", "xpath:link"],
+        ["xpath=//div[@id='full-site-canvas']/div[3]/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fashiondays.bg/customer/authentication/register?_gl=1*1cd51g*_up*MQ..*_ga*MTYyMzkyNjQ1Mi4xNzY3Mjk2NzMw*_ga_WGSGQEHPQE*czE3NjcyOTY3MjkkbzEkZzEkdDE3NjcyOTY3MzEkajU4JGwwJGgw')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b5a45f7-40dd-423e-b262-f84e70ffa768",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_email",
+      "targets": [
+        ["id=pizokel_customer_register_email", "id"],
+        ["name=pizokel_customer_register[email]", "name"],
+        ["css=#pizokel_customer_register_email", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22ab4a7a-9e87-4dcc-8356-6fb4959cac1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=pizokel_customer_register_email",
+      "targets": [
+        ["id=pizokel_customer_register_email", "id"],
+        ["name=pizokel_customer_register[email]", "name"],
+        ["css=#pizokel_customer_register_email", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "iliana.miladinova@"
+    }, {
+      "id": "1086eb25-2b07-4713-97bc-041287e7fae7",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_password",
+      "targets": [
+        ["id=pizokel_customer_register_password", "id"],
+        ["name=pizokel_customer_register[password]", "name"],
+        ["css=#pizokel_customer_register_password", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_password']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4abbbc0d-1d3e-4150-893e-987b04d02e95",
+      "comment": "",
+      "command": "type",
+      "target": "id=pizokel_customer_register_password",
+      "targets": [
+        ["id=pizokel_customer_register_password", "id"],
+        ["name=pizokel_customer_register[password]", "name"],
+        ["css=#pizokel_customer_register_password", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_password']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "Ilinden200704*"
+    }, {
+      "id": "56ec34d7-1af6-4d41-a5c6-55f2b96935b3",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6) > .register-checkbox-label",
+      "targets": [
+        ["css=div:nth-child(6) > .register-checkbox-label", "css:finder"],
+        ["xpath=//form[@id='register-form']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Прочетох и се съгласявам с Общите условия на Fashion Days, Политиката за конфиденциалност, и потвърждавам, че имам навършени 18 години.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ee2e2f5-e5bc-427d-aa13-0da4b16425f0",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_submit",
+      "targets": [
+        ["id=pizokel_customer_register_submit", "id"],
+        ["name=pizokel_customer_register[submit]", "name"],
+        ["css=#pizokel_customer_register_submit", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "913b8980-0b5a-4e92-895a-1677bbe92d9d",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.hasError > .error-message",
+      "targets": [
+        ["css=.hasError > .error-message", "css:finder"],
+        ["xpath=//form[@id='register-form']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/div", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "008a381f-b15c-4a2e-a21b-0ab9f912fca5",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hasError > .error-message",
+      "targets": [
+        ["css=.hasError > .error-message", "css:finder"],
+        ["xpath=//form[@id='register-form']/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/div", "xpath:position"]
+      ],
+      "value": "Моля, сверете дали вашия имейл адрес отговаря на валидния формат (name@example.com)."
+    }]
+  }, {
+    "id": "3ac7c1cf-87a9-4709-ab44-721670c6ce00",
+    "name": "RegisterWithExistingEmail",
+    "commands": [{
+      "id": "6c23c37d-1bde-4196-853e-3d4e9d0cd213",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf836385-5923-4392-a4c0-b6be30591145",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1234x769",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d31c10d6-6f29-4159-a125-5ff7b4beb265",
+      "comment": "",
+      "command": "click",
+      "target": "css=#customer-account .icon",
+      "targets": [
+        ["css=#customer-account .icon", "css:finder"],
+        ["xpath=//a[@id='customer-account']/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98e25142-d7c9-4d5e-a9ca-3cdb084be348",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-tabs > li:nth-child(2) > a",
+      "targets": [
+        ["css=.nav-tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрирай се')]", "xpath:link"],
+        ["xpath=//div[@id='full-site-canvas']/div[3]/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fashiondays.bg/customer/authentication/register?_gl=1*14bd89u*_up*MQ..*_ga*MTIwNjI3MzM5Ni4xNzY3Mjk4NDY2*_ga_WGSGQEHPQE*czE3NjcyOTg0NjUkbzEkZzEkdDE3NjcyOTg0NjckajU4JGwwJGgw')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cede56d6-e46b-45ad-a6c9-7b00e57e2db5",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_email",
+      "targets": [
+        ["id=pizokel_customer_register_email", "id"],
+        ["name=pizokel_customer_register[email]", "name"],
+        ["css=#pizokel_customer_register_email", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32725992-5d1d-43b9-a3ed-cfccef9f710c",
+      "comment": "",
+      "command": "type",
+      "target": "id=pizokel_customer_register_email",
+      "targets": [
+        ["id=pizokel_customer_register_email", "id"],
+        ["name=pizokel_customer_register[email]", "name"],
+        ["css=#pizokel_customer_register_email", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "iliana.miladinova20@gmail.com"
+    }, {
+      "id": "37849b50-20ad-4a95-9075-d7a5fd483a64",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_password",
+      "targets": [
+        ["id=pizokel_customer_register_password", "id"],
+        ["name=pizokel_customer_register[password]", "name"],
+        ["css=#pizokel_customer_register_password", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_password']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb2597e2-ec0a-4404-9b5a-994e091b793e",
+      "comment": "",
+      "command": "type",
+      "target": "id=pizokel_customer_register_password",
+      "targets": [
+        ["id=pizokel_customer_register_password", "id"],
+        ["name=pizokel_customer_register[password]", "name"],
+        ["css=#pizokel_customer_register_password", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_password']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "Ilinden123*"
+    }, {
+      "id": "58f78478-7fe8-4e3c-be80-dbcbb3981fc7",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6) > .register-checkbox-label",
+      "targets": [
+        ["css=div:nth-child(6) > .register-checkbox-label", "css:finder"],
+        ["xpath=//form[@id='register-form']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Прочетох и се съгласявам с Общите условия на Fashion Days, Политиката за конфиденциалност, и потвърждавам, че имам навършени 18 години.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dfed9ff-13b7-4997-8916-e8051f295bbf",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_submit",
+      "targets": [
+        ["id=pizokel_customer_register_submit", "id"],
+        ["name=pizokel_customer_register[submit]", "name"],
+        ["css=#pizokel_customer_register_submit", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ecc2fef-0321-4080-9597-a58927bfbef4",
+      "comment": "",
+      "command": "click",
+      "target": "id=forget-password-open",
+      "targets": [
+        ["id=forget-password-open", "id"],
+        ["linkText=Забравена парола", "linkText"],
+        ["css=.forgot-pass > #forget-password-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Забравена парола')]", "xpath:link"],
+        ["xpath=//a[@id='forget-password-open']", "xpath:attributes"],
+        ["xpath=//div[@id='login-p']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fashiondays.bg/customer/recover-password?_gl=1*1j54sk2*_up*MQ..*_ga*MjA5Mjg1NzIwMy4xNzY3Mjk4NTEz*_ga_WGSGQEHPQE*czE3NjcyOTg1MTIkbzEkZzAkdDE3NjcyOTg1MTIkajYwJGwwJGgw')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Забравена парола')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "af4d511d-cb0c-42c8-9eb0-5cbf0b9c01ad",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.hasError > .error-message",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "6aae41ed-12fa-4643-bd0f-e79da0679c92",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.hasError > .error-message",
+      "targets": [],
+      "value": "emailError"
+    }, {
+      "id": "64bf5ea4-e3f4-439d-8159-b25c66e62dec",
+      "comment": "",
+      "command": "if",
+      "target": "${emailError}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49ac2562-6a3d-4630-8ed1-df6a1c27d1db",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.hasError > .error-message",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "562c9b4d-7e56-41aa-98d6-b9ce5f080997",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.hasError > .error-message",
+      "targets": [],
+      "value": "Съжаляваме, не успяхме да финализираме регистрацията на този имейл профил. Моля, използвай един от съществуващите методи за влизане в социалните мрежи като Facebook, Google или Apple."
+    }, {
+      "id": "8bffba19-67e1-4276-b5df-056c3b4e4073",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a25ad59a-9920-465f-abcd-aff510c9d07b",
+      "comment": "",
+      "command": "echo",
+      "target": "Email е свободен, регистрацията продължава",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e876f1be-db04-4e88-99e0-b8e9b1b2c3f0",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "32d6a063-f35e-473d-8734-b27ef770dd11",
+    "name": "UserIsLoggedNotComlete",
+    "commands": [{
+      "id": "374fe215-7828-4eb8-9013-179b10b2e262",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "710bd2a3-2f28-4b09-bd73-d4bc845ab96b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "801x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb3dba97-74c5-4dc9-8ef0-1ab9116c3dfb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mobile-login > .container-icon",
+      "targets": [
+        ["css=#mobile-login > .container-icon", "css:finder"],
+        ["xpath=//a[@id='mobile-login']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e15d0694-8a8d-414e-ab65-ab21bf760486",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#mobile-login > .container-icon",
+      "targets": [
+        ["css=#mobile-login > .container-icon", "css:finder"],
+        ["xpath=//a[@id='mobile-login']/div", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6e7405f-22d5-4577-ac7a-af56f4167df1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#mobile-login .icon",
+      "targets": [
+        ["css=#mobile-login .icon", "css:finder"],
+        ["xpath=//a[@id='mobile-login']/div/i", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ade5e71-5ba4-4d98-971a-c15e68e3103a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mobile-login .icon",
+      "targets": [
+        ["css=#mobile-login .icon", "css:finder"],
+        ["xpath=//a[@id='mobile-login']/div/i", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "429a78a3-0e25-402c-bd07-8a68a974de40",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#mobile-login .icon",
+      "targets": [
+        ["css=#mobile-login .icon", "css:finder"],
+        ["xpath=//a[@id='mobile-login']/div/i", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47141576-21a5-4294-aa8e-590ea850e23e",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=pizokel_customer[_username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "876a3fe9-5214-4768-8813-451680d4c182",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=pizokel_customer[_username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "c6f57a95-9f91-417b-b96e-1781e44e9ab2",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=pizokel_customer[_username]", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iliana.miladinova20@gmail.com"
+    }, {
+      "id": "1eda03f2-13fa-4520-90bc-3f19908d1832",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pizokel_customer[_password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02f53419-db35-41d5-9226-f12557b31e9b",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=pizokel_customer[_password]", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Iliana200704*"
+    }, {
+      "id": "1aada09e-fbf0-49bf-a3b1-eed59fde7abc",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginform",
+      "targets": [
+        ["id=loginform", "id"],
+        ["name=pizokel_customer", "name"],
+        ["css=#loginform", "css:finder"],
+        ["xpath=//form[@id='loginform']", "xpath:attributes"],
+        ["xpath=//div[@id='login-dropdown']/div/div/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "83513cc7-b3c4-4a3c-b244-096c28735b4d",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_submit",
+      "targets": [
+        ["id=pizokel_customer_submit", "id"],
+        ["name=pizokel_customer[submit]", "name"],
+        ["css=#pizokel_customer_submit", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='loginform']/div[3]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b932089-9098-4de0-b2e3-143a9f879c17",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.widget-container:nth-child(1) .swiper-slide:nth-child(1) .banner-slot-card-image",
+      "targets": [
+        ["css=.widget-container:nth-child(1) .swiper-slide:nth-child(1) .banner-slot-card-image", "css:finder"],
+        ["xpath=(//img[@alt='НОВИ СЪКРОВИЩА ЗА НОВАТА ГОДИНА!'])[2]", "xpath:img"],
+        ["xpath=//div[@id='homepage']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef9f5846-ce8f-4767-954a-0b0be85c8bb2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#mobile-login .icon",
+      "targets": [
+        ["css=#mobile-login .icon", "css:finder"],
+        ["xpath=//a[@id='mobile-login']/div/i", "xpath:idRelative"],
+        ["xpath=//div[5]/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9d5a5544-7555-4719-881b-4cf7d6f592ee",
+    "name": "AddToCartNew",
+    "commands": [{
+      "id": "c186399d-48c9-4fab-88e0-95328d81b3b8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54050673-29f6-4701-b4b8-2a5940cc7cc7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "801x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf21ed86-ee10-4e7c-ab87-995284a7fbd5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.burger-menu",
+      "targets": [
+        ["css=.burger-menu", "css:finder"],
+        ["xpath=//div[@id='head-section']/header/div/div", "xpath:idRelative"],
+        ["xpath=//header/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fdbf8c9-a4df-4dfc-aef3-fd280c6c6b74",
+      "comment": "",
+      "command": "click",
+      "target": "css=.burger-menu__btn",
+      "targets": [
+        ["css=.burger-menu__btn", "css:finder"],
+        ["xpath=//div[@id='head-section']/header/div/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7134753e-f109-491e-9f99-61f17f6c5bb7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu__item:nth-child(5) > span",
+      "targets": [
+        ["css=.main-menu__item:nth-child(5) > span", "css:finder"],
+        ["xpath=//div[@id='main-menu']/div[2]/nav/ul/li[5]/span", "xpath:idRelative"],
+        ["xpath=//li[5]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'ЧАНТИ, ЧАСОВНИЦИ И АКСЕСОАРИ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23cc6db7-30b2-4562-88fb-24199a84aeff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.main-menu__overlay-content > .main-menu__item-child:nth-child(3) > .is-mobile-active",
+      "targets": [
+        ["css=.main-menu__overlay-content > .main-menu__item-child:nth-child(3) > .is-mobile-active", "css:finder"],
+        ["xpath=//div[@id='main-menu']/div[2]/nav/ul/li[5]/div/div[2]/a[2]/span", "xpath:idRelative"],
+        ["xpath=//li[5]/div/div[2]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Чанти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28e38e0b-0473-4aad-a68a-90256beeda41",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,46.400001525878906)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a5ee1f0-f291-4214-aea0-93fc98e7a4b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#prod-17131045 .product-over",
+      "targets": [
+        ["css=#prod-17131045 .product-over", "css:finder"],
+        ["xpath=(//img[@alt='Голяма чанта  -3 13'])[2]", "xpath:img"],
+        ["xpath=//li[@id='prod-17131045']/a/span/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "058a93c0-e32d-47f4-9798-73830af2b982",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,170.39999389648438)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28360cb1-ccc3-41ff-acdf-3714757f1bce",
+      "comment": "",
+      "command": "click",
+      "target": "css=#buy-box > span",
+      "targets": [
+        ["css=#buy-box > span", "css:finder"],
+        ["xpath=//button[@id='buy-box']/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bee4341-6dc5-4c48-b176-bba6a23ee308",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#basket-notification > span:nth-child(1)",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "500f8b11-84f9-42fb-9897-bc845160ef4e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#basket-notification > span:nth-child(1)",
+      "targets": [],
+      "value": "Продуктите са добавени в количката."
+    }, {
+      "id": "ac86888d-c50f-4b25-8413-b0de0b28a30d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-fdux_cart",
+      "targets": [
+        ["css=.icon-fdux_cart", "css:finder"],
+        ["xpath=//a[@id='customer-basket']/div/i", "xpath:idRelative"],
+        ["xpath=//div[4]/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd5094dc-aa28-44af-af26-bbd824928484",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=div.vendor-box:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e794a05b-9b4e-406a-b511-eba4e8b704ae",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cbec9579-0d71-48d0-8b7b-0f3fa8ec9b9e"]
+  }],
+  "urls": ["https://www.fashiondays.bg/"],
+  "plugins": []
+}

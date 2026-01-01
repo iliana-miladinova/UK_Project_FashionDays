@@ -1,0 +1,159 @@
+{
+  "id": "587fa28b-1ae9-43df-954e-78e0e1188faf",
+  "version": "2.0",
+  "name": "UK_Project_tests",
+  "url": "https://www.fashiondays.bg",
+  "tests": [{
+    "id": "2ab82548-1b8a-4972-b1a9-37fe7a8906f7",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "25aea6da-93fa-410d-9bd6-9dbc502a92c2",
+    "name": "RegisterWithInvalidEmail",
+    "commands": [{
+      "id": "494b7c5d-7922-445b-aa15-dc9eed4a0aa6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0407c8ae-6a18-46a7-9fda-3c44cadf4ff2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1110x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4757fbbe-3d53-41f3-924b-c4e845c0c375",
+      "comment": "",
+      "command": "click",
+      "target": "css=#customer-account .icon",
+      "targets": [
+        ["css=#customer-account .icon", "css:finder"],
+        ["xpath=//a[@id='customer-account']/div/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c7f9712-21e0-4ac8-ba5d-cb8ca95c5ade",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=customer-account",
+      "targets": [
+        ["id=customer-account", "id"],
+        ["css=#customer-account", "css:finder"],
+        ["xpath=//a[@id='customer-account']", "xpath:attributes"],
+        ["xpath=//div[@id='login-dropdown']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/customer/authentication?auth_source=accountMenu')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e3acc62-e261-4b44-981f-f39d69fd024f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nav-tabs > li:nth-child(2) > a",
+      "targets": [
+        ["css=.nav-tabs > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрирай се')]", "xpath:link"],
+        ["xpath=//div[@id='full-site-canvas']/div[3]/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.fashiondays.bg/customer/authentication/register?_gl=1*2nyrsi*_up*MQ..*_ga*NTk4NDA5NTc2LjE3NjcyOTI5MDY.*_ga_WGSGQEHPQE*czE3NjcyOTI5MDUkbzEkZzEkdDE3NjcyOTI5MTIkajUzJGwwJGgw')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bcb462d-2404-4126-9b7c-21ae3f9070c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_email",
+      "targets": [
+        ["id=pizokel_customer_register_email", "id"],
+        ["name=pizokel_customer_register[email]", "name"],
+        ["css=#pizokel_customer_register_email", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0f42da9-e797-4a86-ad81-6695200bab79",
+      "comment": "",
+      "command": "type",
+      "target": "id=pizokel_customer_register_email",
+      "targets": [
+        ["id=pizokel_customer_register_email", "id"],
+        ["name=pizokel_customer_register[email]", "name"],
+        ["css=#pizokel_customer_register_email", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_email']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div/input", "xpath:position"]
+      ],
+      "value": "iliana.miladinova@"
+    }, {
+      "id": "27bbc745-c46a-4b24-8315-0dcede496cf6",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_password",
+      "targets": [
+        ["id=pizokel_customer_register_password", "id"],
+        ["name=pizokel_customer_register[password]", "name"],
+        ["css=#pizokel_customer_register_password", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_password']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ac3860a-80dc-4d51-8eda-538a73b87cb6",
+      "comment": "",
+      "command": "type",
+      "target": "id=pizokel_customer_register_password",
+      "targets": [
+        ["id=pizokel_customer_register_password", "id"],
+        ["name=pizokel_customer_register[password]", "name"],
+        ["css=#pizokel_customer_register_password", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_password']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "69bec421-3420-4750-a065-badee9f9df2d",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(6) > .register-checkbox-label",
+      "targets": [
+        ["css=div:nth-child(6) > .register-checkbox-label", "css:finder"],
+        ["xpath=//form[@id='register-form']/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Прочетох и се съгласявам с Общите условия на Fashion Days, Политиката за конфиденциалност, и потвърждавам, че имам навършени 18 години.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c2472c1-c47d-4ecc-90f9-0237b45d0e6a",
+      "comment": "",
+      "command": "click",
+      "target": "id=pizokel_customer_register_submit",
+      "targets": [
+        ["id=pizokel_customer_register_submit", "id"],
+        ["name=pizokel_customer_register[submit]", "name"],
+        ["css=#pizokel_customer_register_submit", "css:finder"],
+        ["xpath=//input[@id='pizokel_customer_register_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='register-form']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2f44d19c-41d3-4b82-a5e5-a969af0d5c9b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2ab82548-1b8a-4972-b1a9-37fe7a8906f7"]
+  }],
+  "urls": ["https://www.fashiondays.bg/"],
+  "plugins": []
+}
