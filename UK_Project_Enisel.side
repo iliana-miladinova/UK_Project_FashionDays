@@ -1,0 +1,392 @@
+{
+  "id": "c755fb88-c773-4538-922a-4b1909fd0d49",
+  "version": "2.0",
+  "name": "UK_Project_FMI",
+  "url": "https://www.fashiondays.bg",
+  "tests": [{
+    "id": "e21fcda3-9e2b-4699-b558-a1c7b4548bfc",
+    "name": "SearchProduct",
+    "commands": [{
+      "id": "b901cccc-3d88-4b61-9962-262a0894eee1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bec6a619-6853-4777-88a5-ea6f15de49a7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "719x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7792b788-03f8-443f-b088-7071abf2e4e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container-icon > .icon-fdux_search",
+      "targets": [
+        ["css=.container-icon > .icon-fdux_search", "css:finder"],
+        ["xpath=//a[@id='mobile-search']/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b99aecd-f6ba-4518-ba3a-1a7fea33651b",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67ab337e-fc54-484a-b337-28aa4c8dd6a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Чанта"
+    }, {
+      "id": "c6f3b6e0-85d3-4224-85d6-c8ff55fc388b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b86bc37c-4785-4c64-9303-bee1d67a3a00",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#prod-8800191 > a:nth-child(3) > span:nth-child(1) > img:nth-child(2)",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "141ab405-d088-4b80-af5d-e93890cf30cf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#prod-8800191 > a:nth-child(3) > span:nth-child(1) > img:nth-child(2)",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "43469ee9-c9ab-426c-84a5-749a9754abe4",
+    "name": "OpenProduct",
+    "commands": [{
+      "id": "dbe24903-aa64-4acb-b293-bb4e56af63c0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "002657ca-73f1-420b-956c-a74621965a82",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "952x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5e10187b-0b99-4756-8655-4047a578c372",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.flash-sale_item__pictures:nth-child(3) .web",
+      "targets": [
+        ["css=.flash-sale_item__pictures:nth-child(3) .web", "css:finder"],
+        ["xpath=//img[@alt='За поръчки над 120 евро с код: JAN20']", "xpath:img"],
+        ["xpath=//div[@id='homepage']/div/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11500e7e-5797-4f2b-8084-ab4e60775284",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.flash-sale_item__pictures:nth-child(3) .web",
+      "targets": [
+        ["css=.flash-sale_item__pictures:nth-child(3) .web", "css:finder"],
+        ["xpath=//img[@alt='За поръчки над 120 евро с код: JAN20']", "xpath:img"],
+        ["xpath=//div[@id='homepage']/div/div/div/div/div[2]/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f84f9108-305c-4287-b134-2d32c11946d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container-icon > .icon-fdux_search",
+      "targets": [
+        ["css=.container-icon > .icon-fdux_search", "css:finder"],
+        ["xpath=//a[@id='mobile-search']/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36d103c7-7592-4979-b2f1-0c53a90348ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Чанта"
+    }, {
+      "id": "073091c2-c2dd-494b-a1a4-a81a0d53a6f3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e3d51b07-d427-4310-8ce0-665beb938199",
+      "comment": "",
+      "command": "click",
+      "target": "css=#prod-8799657 .product-over",
+      "targets": [
+        ["css=#prod-8799657 .product-over", "css:finder"],
+        ["xpath=(//img[@alt='Чанта с лого'])[2]", "xpath:img"],
+        ["xpath=//li[@id='prod-8799657']/a/span/img[2]", "xpath:idRelative"],
+        ["xpath=//img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa7ae747-5e3e-4524-aa56-31b17580f431",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#product-options",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "bbe92073-a688-49fe-9473-bfeac3a6e505",
+    "name": "Add_To_Cart_With_Size",
+    "commands": [{
+      "id": "851c027c-0323-4dd6-8818-5794a1ccc3c1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d454f7c8-5683-4f06-bc89-a4a8caf04844",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "952x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91be42cb-7980-4115-98a1-109582251cbf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.container-icon > .icon-fdux_search",
+      "targets": [
+        ["css=.container-icon > .icon-fdux_search", "css:finder"],
+        ["xpath=//a[@id='mobile-search']/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc296433-919f-43c6-aeff-fbce5ac5a9e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container-icon > .icon-fdux_search",
+      "targets": [
+        ["css=.container-icon > .icon-fdux_search", "css:finder"],
+        ["xpath=//a[@id='mobile-search']/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47d2d47b-9fbb-408c-9b67-3123f6c9e860",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Обувки"
+    }, {
+      "id": "843248e9-c190-45f4-9f39-03f878356896",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//form[@id='search-form']/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e6b15a66-c02d-4d94-bc0c-0f4b497941c4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.container-icon > .icon-fdux_search",
+      "targets": [
+        ["css=.container-icon > .icon-fdux_search", "css:finder"],
+        ["xpath=//a[@id='mobile-search']/div/i", "xpath:idRelative"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0baf4da6-1a28-4360-a8a8-d227d950476c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#prod-19840294 .product-over",
+      "targets": [
+        ["css=#prod-19840294 .product-over", "css:finder"],
+        ["xpath=(//img[@alt='Детски обувки  208995061'])[2]", "xpath:img"],
+        ["xpath=//li[@id='prod-19840294']/a/span/img[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1221f29f-8367-49aa-9b90-e302cf10d4da",
+      "comment": "",
+      "command": "click",
+      "target": "css=#prod-19840294 .product-over",
+      "targets": [
+        ["css=#prod-19840294 .product-over", "css:finder"],
+        ["xpath=(//img[@alt='Детски обувки  208995061'])[2]", "xpath:img"],
+        ["xpath=//li[@id='prod-19840294']/a/span/img[2]", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/img[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a701754-c96f-4b23-a9cf-3abe199974ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=sizeDrop",
+      "targets": [
+        ["id=sizeDrop", "id"],
+        ["css=#sizeDrop", "css:finder"],
+        ["xpath=//button[@id='sizeDrop']", "xpath:attributes"],
+        ["xpath=//div[@id='dropdown-wrapper']/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Избери размер:')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d264c7-e161-4f8c-8f0e-85dde1c9640c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.short:nth-child(1) > .sizeSelector",
+      "targets": [
+        ["css=.short:nth-child(1) > .sizeSelector", "css:finder"],
+        ["xpath=//label[@value='24']", "xpath:attributes"],
+        ["xpath=//div[@id='sizeContainer']/div/label", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'24')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f3f126c-8361-4792-9622-f160d759411c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return document.querySelector(\".js-pdp-size-select-tooltip\").textContent.trim()",
+      "targets": [],
+      "value": "errorMessage"
+    }, {
+      "id": "8e5f186e-79fb-46a2-af77-0432f47d4472",
+      "comment": "",
+      "command": "if",
+      "target": "${errorMessage}.length > 0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f542a4c-dcf6-4846-ae76-b728915ecd7b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#selectSize > div.js-pdp-size-select-tooltip.pdp-size-select-tooltip > span",
+      "targets": [],
+      "value": "${errorMessage}"
+    }, {
+      "id": "f91034f1-f702-4fc2-a9fd-d8375d35a424",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b098237e-7311-47bf-8a76-b067d31f8290",
+      "comment": "",
+      "command": "click",
+      "target": "css=#buy-box > span",
+      "targets": [
+        ["css=#buy-box > span", "css:finder"],
+        ["xpath=//button[@id='buy-box']/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "55335d8d-db3b-4e73-b861-b67b2fbb7fb6",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=#basket-notification > span",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "219ffc92-8b1a-4c2b-afc4-c79e596ebf45",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#basket-notification > span",
+      "targets": [],
+      "value": "Продуктите са добавени в количката."
+    }, {
+      "id": "e7214aac-f897-44b5-b2cc-977ca8eb3fae",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7c87bce8-ce50-4c64-91f6-072f6f0b85ff",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.fashiondays.bg/"],
+  "plugins": []
+}
